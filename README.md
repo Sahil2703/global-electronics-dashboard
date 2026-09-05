@@ -108,6 +108,25 @@ Navigation between tabs is handled through hyperlinked buttons in the header row
 
 ---
 
+## 🖼️ Dashboard Preview
+
+### Overview Tab
+![Overview](screenshots/overview.png)
+
+### Sales Performance Tab
+![Sales](screenshots/sales.png)
+
+### Product Performance Tab
+![Products](screenshots/products.png)
+
+### Store Performance Tab
+![Stores](screenshots/stores.png)
+
+### Customer Demographics Tab
+![Customers](screenshots/customers.png)
+
+---
+
 ## Tools
 
 Built entirely in **Microsoft Excel **. No Power BI, no Tableau, no Python for the dashboard itself, just pivot tables, slicers, XLOOKUP, INDEX-MATCH, and a lot of careful layout work.
