@@ -46,9 +46,9 @@ The dashboard is split across five tabs:
 
 Before touching a single pivot table, I mapped the full data model. Sales sits at the center as the fact table. Customers, Products, and Stores are dimension tables that join to it via foreign keys. Exchange Rates is the most technically complex join — it connects to Sales on two columns simultaneously (Order Date + Currency Code), which meant I had to use an array-based INDEX-MATCH formula rather than a simple VLOOKUP.
 
-All financial metrics are normalized to USD using the exchange rate on the exact order date — not a monthly or annual average. This matters when you're comparing revenue across 8 countries with different currencies.
+All financial metrics are normalized to USD using the exchange rate on the exact order date, not a monthly or annual average. This matters when you're comparing revenue across 8 countries with different currencies.
 
-One thing I discovered that wasn't documented anywhere in the dataset — StoreKey = 0 means Online. I caught this by noticing that every row with a missing Delivery Date had a non-zero StoreKey, while every row with a Delivery Date had StoreKey = 0. That single observation gave me a clean Online vs In-Store channel split that became one of the most important dimensions in the entire dashboard.
+One thing I discovered that wasn't documented anywhere in the dataset was that StoreKey = 0 means Online. I caught this by noticing that every row with a missing Delivery Date had a non-zero StoreKey, while every row with a Delivery Date had StoreKey = 0. That single observation gave me a clean Online vs In-Store channel split that became one of the most important dimensions in the entire dashboard.
 
 ---
 
@@ -110,7 +110,7 @@ Navigation between tabs is handled through hyperlinked buttons in the header row
 
 ## Tools
 
-Built entirely in **WPS Spreadsheets** (Excel-compatible). No Power BI, no Tableau, no Python for the dashboard itself — just pivot tables, slicers, XLOOKUP, INDEX-MATCH, and a lot of careful layout work.
+Built entirely in **Microsoft Excel **. No Power BI, no Tableau, no Python for the dashboard itself, just pivot tables, slicers, XLOOKUP, INDEX-MATCH, and a lot of careful layout work.
 
 ---
 
@@ -155,9 +155,9 @@ I recently completed my Master's in Data Science at Deakin University. This dash
 
 I work across Python, SQL, Tableau, and Excel. If you have feedback on this project or want to connect, I'd genuinely love to hear from you.
 
-**[Your LinkedIn]**  
-**[Your Email]**  
-**[Your Portfolio]**
+**Sahil Mallick**
+**www.linkedin.com/in/sahil-mallick-851246200**  
+**sahil27032001malik@gmail.com**  
 
 ---
 
