@@ -156,7 +156,9 @@ I recently completed my Master's in Data Science at Deakin University. This dash
 I work across Python, SQL, Tableau, and Excel. If you have feedback on this project or want to connect, I'd genuinely love to hear from you.
 
 **Sahil Mallick**
-**www.linkedin.com/in/sahil-mallick-851246200**  
+
+**www.linkedin.com/in/sahil-mallick-851246200**
+
 **sahil27032001malik@gmail.com**  
 
 ---
