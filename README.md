@@ -8,7 +8,7 @@
 
 After completing a static Coffee Shop Sales dashboard, I wanted to push myself further. I wanted to build something that felt less like a student project and more like something you'd actually see in a business setting — a dashboard that tells a real story, answers real questions, and works interactively without breaking the moment someone touches a filter.
 
-So I picked up the Maven Analytics Global Electronics dataset — 62,884 transactions, 5 tables, mixed currencies, 8 countries, 5 years of data and decided to build the most complete Excel dashboard I could.
+So I picked up the Maven Analytics Global Electronics dataset — 62,885 transactions, 5 tables, mixed currencies, 8 countries, 5 years of data and decided to build the most complete Excel dashboard I could.
 
 This is that dashboard.
 
